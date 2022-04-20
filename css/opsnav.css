@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap");
+
+body{
+    font-family: 'Varta', sans-serif;
+    color: #4e5a6b;
+}
+
+main{
+    max-width: 1420px;
+}
+.main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 1rem;
+    justify-items: center;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h2, p{
+    width: 60%;
+    text-align: center;
+    margin: 10px;
+}
+
+.texto h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.texto p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.div__btn{
+    grid-column: 1/3;
+    margin: 4em auto;
+
+}
+
+.btn__form{
+    margin: 20px;
+    padding: 10px 55px;
+    font-size: 22px;
+    background-color: #A0BFEE;
+    border-radius: 25px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn__form:hover{
+    color: rgb(77, 100, 121);
+    background-color: #cbe0ff;
+    box-shadow: 0 0 1px 0 #A0BFEE;
+    cursor: pointer;
+}
+
+.fundo{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.imagem{
+    width: 100%;
+    text-align: end;
+}
+
+@media (max-width: 520px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

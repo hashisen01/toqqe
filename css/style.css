@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+body {
+    
+}
+.container {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 250px;
+}
+
+.fundo__header{
+    position: absolute;
+    top: 0;
+}
+
+.wave-up {
+    width: 100%;
+    z-index: -1;
+}
+
+.header__itens {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2% 0 10%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+#btn-menu{
+    display: none;
+}
+
+#menu {
+    display: flex;
+    gap: .5rem;
+    overflow: hidden;
+}
+
+#menu a{
+    color: #4e5a6b;
+    font-family: 'Varta', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .3s;
+    padding: .5rem;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    color: rgba(160, 191, 238, 1);
+}
+
+/*--------------END HEADER-----------------*/
+.retangle{
+    width: 100%;
+    height: 365px;
+    margin: 1rem auto 20px auto;
+}
+
+.conteudos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-retangle{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.image-apresentacao{
+    width: 620px;
+}
+
+.section__text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #4e5a6b;
+}
+
+.div__text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__text span{
+    font-family: 'Varta', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.linhas{
+    width: 40%;
+    margin: 1.5rem;
+}
+
+.section__text p{
+    width: 64%;
+    font-family: 'Varta', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.wave-down{
+    width: 100%;
+}
+
+.image_woman-roller{
+
+    display: flex;
+    justify-content: end;
+}
+
+.image_woman-roller img{
+    width: 65%;
+    background: linear-gradient(255, 255, 255, 0.69);
+}
+
+.fundo-up{
+    margin-top: -5;
+}
+
+.section__slide h2{
+    text-align: center;
+    font-family: 'Varta', sans-serif;
+    font-size: 22px;
+    color: #4e5a6b;
+}
+
+.div__slide{
+    width: 735px;
+    height: 420px;
+    margin: 20px auto;
+    background: rgba(200, 200, 200, 0.25);
+    box-shadow: 0 0 2px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.div__slide-title{
+    width: 420px;
+    height: 40px;
+    margin: 10px auto;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 2px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Varta', sans-serif;
+    color: #1ED760;
+}
+
+.slide-images{
+    margin: 1.5em auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.image{
+    width: 421px;
+    height: 290px;
+}
+
+.div__dotz{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: #FFFFFF;
+    margin: 3px;
+    border-radius: 6px;
+}
+
+.section__message h2{
+    text-align: center;
+    font-family: 'Varta', sans-serif;
+    font-size: 22px;
+    color: #4e5a6b;
+}
+
+/*FORMULÁRIO*/
+
+
+.div1-form{
+    height: 500px;
+    position: relative;
+}
+.section{
+    font-family: 'Varta', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    --bg-blue-900:rgba(160, 191, 238, 0.46);
+    --bg-blue-100:#4E5A6B;
+    --bg-white-100:#FAFAFA;
+    --text-white-900:#ffffff;
+    --text-white-700:#e9e9e9;
+    --skin-color:#000000;
+}
+
+*
+{
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+ul
+{
+    list-style: none;
+}
+.section
+{
+    mask-repeat: no-repeat, repeat;
+    display: block;
+    padding: 0 30px;
+    opacity: 1;
+}
+.hidden
+{
+    display: none !important;
+}
+.main-content
+{
+    max-width: auto;
+    padding-left: 270px;
+    background-color: transparent;
+    
+}
+.padd-15
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
+
+.btn
+{
+    bottom: 2em;
+    right: -10px;
+    max-width: 240px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 35px;
+    color: var(--bg-blue-100);
+    border-radius: 40px;
+    display: block;
+    white-space: nowrap;
+    border: none;
+    transition: all 0.3s ease;
+    background: rgba(160, 191, 238, 0.5);
+}
+.btn:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.shadow-dark
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.containner
+{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+}
+
+.section .containner
+{
+    padding-top: 20px;
+}
+.section-title
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.div-form{
+    width: 100%;
+    background-color: var(--bg-blue-900);
+    padding: 5em;
+    border-radius: 18px;
+    height: 450px;
+}
+
+.form-group{
+    text-align: center;
+}
+
+.lbl__desc{
+    color: var(--bg-blue-100);
+    font-weight: 500;
+    font-family: 'Varta', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.contato-sub-title
+{
+    color: var(--text-white-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.contato .contato-info-item
+{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+}
+.contato .contato-info-item .icon
+{
+    display: inline-block;
+}
+.contato .contato-info-item .icon .fa
+{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+.contato .contato-info-item h4
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-white-900);
+    text-transform: capitalize;
+    margin: 15px 0 5px;
+}
+.contato .contato-info-item p
+{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-white-700);
+    font-weight: 400;
+}
+.contato .contato-form
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contato .contato-form .col-6
+{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.contato .contato-form .col-12
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.contato .contato-form .form-item
+{
+    margin-bottom: 30px;
+}
+.contato .contato-form .form-item .form-control
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--bg-white-100);
+    border: 1px solid var(--bg-white-50);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: black;
+    transition: all 0.3s ease;
+}
+.contato .contato-form .form-item .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.contato .contato-form .form-item textarea.form-control
+{
+    height: 140px;
+}
+.centro{
+    margin-left: auto;
+    margin-right: auto
+}
+.contato .contato-form .btn
+{
+    height: 50px;
+    padding: 0 50px;
+}
+
+/*END FORMULÁRIO*/
+
+.conteudo__rodape{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto 0 auto;
+    background: rgba(160, 191, 238, 0.46);
+}
+
+.logo__rodape{
+    width: 180px;
+}
+
+.sociais li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.bi{
+    transition: .3s;
+}
+
+.bi:hover{
+    color: #4E5A6B;
+    cursor: pointer;
+}
